@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://db.onlinewebfonts.com/c/535f840c3f8648137acc62e170b62847?family=VTB+Group+Cond+Book);
+
+/* @font-face {
+  font-family: "VTB Group Cond Book";
+  src: url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.eot");
+  src: url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.svg#VTB Group Cond Book")format("svg");
+} */
+
+
+* {
+  font-family: "VTB Group Cond Book";
+}
+
+:root {
+  --dark: #333;
+  --light: #E9ECEF;
+}
+
+.switch__input {
+  opacity: 0;
+  z-index: 1;
+}
+
+.switch__label {
+  display: flex;
+  position: relative;
+  width: 67px;
+  height: 34px;
+  background-color: var(--light);
+  border-radius: 25px;
+  transition: 0.4s;
+}
+
+.switch__label::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  color: #ffffff;
+  transition: 0.4s;
+  content: url(./components/Headers/sun.svg);
+  font-family: "Font Awesome 5 Free";
+  font-size: 33px;
+  box-sizing: border-box;
+}
+
+.switch__input:checked + .switch__label {
+  background-color: var(--light);
+}
+
+.switch__input:checked + .switch__label::before {
+  left: calc(100% - 28px);
+  border-color: var(--light);
+  background-color: var(--dark);
+  color: var(--light);
+  border-radius: 100%;
+  content: url(./components/Headers/moon.svg);
+}
