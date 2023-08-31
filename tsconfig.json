@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.tsx", "app/components/Content/BtnApp.js", "app/components/Content/BtnAndroid.js", "app/components/Content/TitleInfoAndroid.js"],
   "exclude": ["node_modules"]
 }

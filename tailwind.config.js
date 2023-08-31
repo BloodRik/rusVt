@@ -16,6 +16,7 @@ module.exports = {
       'btnVtb': '#0084ff',
       'lineVtb': '#d4d7df',
       'white': '#ffffff',
+      'border_blue': '#30498f',
     }
   },
   plugins: [],

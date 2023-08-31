@@ -4,14 +4,14 @@ export default function NavOne() {
   return (
     <>
     <nav className='flex'>
-        <ul className='flex space-x-4 ml-[-21px] text-sm/[13px] text-[#939bb2]'>
+        <ul className='flex space-x-3 ml-[-28px] text-xs/[1px] text-[#adb2c1] font-black tracking-[.05em]'>
             <li className='text-btnVtb'>Частным лицам</li>
             <li className='cursor-pointer hover:text-nevOne transition hover:transition-all'>Самозанятым</li>
             <li className='cursor-pointer hover:text-nevOne transition hover:transition-all'>Малый и средний бизнес</li>
             <li className='cursor-pointer hover:text-nevOne transition hover:transition-all'>Крупный бизнес</li>
         </ul>
 
-        <div className="m-[-4px] ml-1 transition ease-in-out hover:-translate-x-1 cursor-pointer">
+        <div className="m-[-10px] ml-[4px] transition ease-in-out hover:-translate-x-1 cursor-pointer">
         <svg
       aria-label="Раскрыть меню"
       width="24px"
