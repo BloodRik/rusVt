@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function Home() {
 
   return (
-    <main className="min-h-screen p-24 bg-[#f3f7fa]">
+    <main className="min-h-screen p-24 bg-[#f3f7fa] h-[1500px]">
       <div className="m-[-36px] ml-[76px]">
         <p className="text-[12.5px] text-[#2e4598] cursor-pointer hover:text-btnVtb ">/&nbsp; Онлайн-Сервисы &nbsp;/&nbsp;  
         <span className="text-[13px] 
@@ -20,10 +20,8 @@ export default function Home() {
       <div className="">
 <BtnApp/>
      </div>
-      
       </div>
       </div>
-      
     </main>
   );
 }

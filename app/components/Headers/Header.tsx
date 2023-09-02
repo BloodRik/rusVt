@@ -15,7 +15,7 @@ export default function Header() {
       
       <div className="flex space-x-[60px] p-6">
       <NavOne/>
-      <div className=" flex space-x-4 m-[-14px] absolute right-[34px]">
+      <div className=" flex space-x-4 m-[-15px] absolute right-[34px]">
         
       <ButtonVTB/>
       <FonColorDarkLight/>
