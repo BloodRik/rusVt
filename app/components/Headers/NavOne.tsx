@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function NavOne() {
@@ -5,10 +6,26 @@ export default function NavOne() {
     <>
     <nav className='flex'>
         <ul className='flex space-x-3 ml-[-28px] text-xs/[1px] text-[#adb2c1] font-black tracking-[.05em]'>
-            <li className='text-btnVtb'>Частным лицам</li>
-            <li className='cursor-pointer hover:text-nevOne transition hover:transition-all'>Самозанятым</li>
-            <li className='cursor-pointer hover:text-nevOne transition hover:transition-all'>Малый и средний бизнес</li>
-            <li className='cursor-pointer hover:text-nevOne transition hover:transition-all'>Крупный бизнес</li>
+            <li className='text-btnVtb'>
+              <Link href='https://www.vtb.ru/'>
+              Частным лицам
+              </Link>
+              </li>
+            <li className='cursor-pointer hover:text-nevOne transition hover:transition-all'>
+              <Link href='https://www.vtb.ru/samozanyatym/'>
+              Самозанятым
+              </Link>
+              </li>
+            <li className='cursor-pointer hover:text-nevOne transition hover:transition-all'>
+              <Link href='https://www.vtb.ru/malyj-biznes/'>
+              Малый и средний бизнес
+              </Link>
+              </li>
+            <li className='cursor-pointer hover:text-nevOne transition hover:transition-all'>
+              <Link href='https://www.vtb.ru/krupnyj-biznes/'>
+              Крупный бизнес
+              </Link>
+              </li>
         </ul>
 
         <div className="m-[-10px] ml-[4px] transition ease-in-out hover:-translate-x-1 cursor-pointer">

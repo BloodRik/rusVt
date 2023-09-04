@@ -7,8 +7,8 @@ import NavTwo from './NavTwo'
 
 export default function Header() {
   return (
-    <>
-    <div className='flex w-[1519px] h-[101px] ml-[-11px]'>
+    <section className='bg-white fixed z-10'>
+    <div className='flex w-[1535px] h-[101px] ml-[-11px]'>
       <div className="p-7 ml-6">
       <Logo/>
       </div>
@@ -21,7 +21,7 @@ export default function Header() {
       <FonColorDarkLight/>
       </div>
       </div>
-      <div className="border-b-[1px] absolute w-[100%]  left-[126px] m-12 text-lineVtb ">
+      <div className="border-b-[1px] absolute w-[1345px]  left-[126px] m-12 text-lineVtb ">
         <span className='text-[#4a6ff3] absolute w-[97px] left-[-11px] border-b-[3px] mt-[-1px]  rounded '></span>
       </div>
       </div>
@@ -29,6 +29,6 @@ export default function Header() {
         <NavTwo/>
       </div>
       <div className="border-b-[1px] absolute w-[100%] text-lineVtb "></div>
-      </>
+      </section>
   )
 }

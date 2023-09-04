@@ -1,8 +1,10 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Logo() {
   return (
-    <div>
+    <div className="cursor-pointer">
+      <Link href='https://www.vtb.ru/'>
       <svg
         width="98px"
         height="35px"
@@ -19,6 +21,7 @@ export default function Logo() {
           fill="#0A2896"
         ></path>
       </svg>
+      </Link>
     </div>
   );
 }

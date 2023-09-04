@@ -1,7 +1,9 @@
+import Link from "next/link";
 
 export default function ButtonVTB() {
   return (
-    <button className="flex  border-2 border-btnVtb w-[153.5px] h-[33.2px] rounded-[8px] tracking-[-0.4px] hover:bottom-[#3c47a4]">
+      <Link target="_blank" href='https://online.vtb.ru/login'>
+    <button  className="flex  border-2 border-btnVtb w-[153.5px] h-[33.2px] rounded-[8px] tracking-[-0.4px] hover:bg-[#dde2ed]">
       <svg
         width="24px"
         height="24px"
@@ -17,5 +19,6 @@ export default function ButtonVTB() {
       </svg>
       <span className="text-btnVtb w-[110.3px] h-[21.6px] text-[18px] pt-[1px]">ВТБ ОНЛАЙН</span>
     </button>
+      </Link>
   );
 }

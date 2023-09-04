@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function TitleInfoAndroid() {
@@ -20,7 +21,9 @@ export default function TitleInfoAndroid() {
         <p className="absolute left-[-350px] text-[18px] text-[#606981]">Скачать приложение</p>
         <ul className="ml-[230px] text-[18px]">
           <li className=" flex text-[#26469f] cursor-pointer mb-[8px] hover:text-btnVtb">
+            <Link href='https://www.vtb.ru/personal/online-servisy/vtb-online-android/'>
             Установить по инструкции с сайта
+            </Link>
             <svg
               width="28px"
               height="28px"
@@ -35,7 +38,9 @@ export default function TitleInfoAndroid() {
             </svg>
           </li>
           <li className="flex text-[#26469f] cursor-pointer mb-[8px] hover:text-btnVtb">
+            <Link href='https://galaxystore.samsung.com/error/4002?cc=UKR'>
             Galaxy Store
+            </Link>
             <svg
               width="28px"
               height="28px"
@@ -50,7 +55,9 @@ export default function TitleInfoAndroid() {
             </svg>
           </li>
           <li className="flex text-[#26469f] cursor-pointer mb-[8px] hover:text-btnVtb">
+            <Link href='https://appgallery.huawei.com/app/C102312137'>
             AppGallery
+            </Link>
             <svg
               width="28px"
               height="28px"
@@ -65,7 +72,9 @@ export default function TitleInfoAndroid() {
             </svg>
           </li>
           <li className="flex text-[#26469f] cursor-pointer mb-[8px] hover:text-btnVtb">
+            <Link href='https://apps.rustore.ru/app/ru.vtb24.mobilebanking.android'>
             RuStore
+            </Link>
             <svg
               width="28px"
               height="28px"

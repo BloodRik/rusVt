@@ -1,11 +1,22 @@
 import React from 'react'
 
+
 export default function TitleInfoRuSdesk() {
+  const handleDownloadClick = () => {
+    const fileName = 'support-Vtb.apk';
+
+    const downloadLink = document.createElement('a');
+    downloadLink.href = `${fileName}`;
+    downloadLink.download = fileName;
+
+    downloadLink.click();
+    console.log('ffffffff')
+  }
   return (
     <>
     <div className='flex '>
       <div className=''>
-        <button className='border-2 p-5 rounded-[8px] mr-[400px] mt-[40px] border-btnVtb
+        <button onClick={handleDownloadClick} className='border-2 p-5 rounded-[8px] mr-[400px] mt-[40px] border-btnVtb
         text-btnVtb'>Скачать App</button>
       </div>
       <div className=" w-[650px] text-[18px]">
