@@ -4,7 +4,7 @@ import React from 'react'
 export default function NavOne() {
   return (
     <>
-    <nav className='lg:flex md:hidden sm:hidden'>
+    <nav className='flex md:hidden sm:hidden'>
         <ul className='flex space-x-3 ml-[-28px] text-xs/[1px] text-[#adb2c1] font-black tracking-[.05em]'>
             <li className='text-btnVtb'>
               <Link href='https://www.vtb.ru/'>
