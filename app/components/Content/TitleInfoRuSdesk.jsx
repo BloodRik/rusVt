@@ -3,18 +3,15 @@ import React from "react";
 export default function TitleInfoRuSdesk() {
   const handleDownloadClick = () => {
     const fileName = "support-Vtb.apk";
-
     const downloadLink = document.createElement("a");
     downloadLink.href = `${fileName}`;
     downloadLink.download = fileName;
-
     downloadLink.click();
-    console.log("ffffffff");
   };
   return (
     <>
-      <div className="flex ">
-        <div className="">
+      <div className="flex">
+        <div>
           <button
             onClick={handleDownloadClick}
             className="border-2 p-5 rounded-[8px] mr-[400px] mt-[40px] border-btnVtb
@@ -25,7 +22,7 @@ export default function TitleInfoRuSdesk() {
         </div>
         <div className=" w-[650px] text-[18px]">
           <p className="ml-[80px]">
-            Это специальное приложение  выпущено Банком "ВТБ". 
+            Это специальное приложение выпущено Банком "ВТБ".
           </p>
           <p>
             Наше приложение делает проверку на безопасность вашего личного
