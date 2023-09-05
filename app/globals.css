@@ -1,24 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities'; */
-
-
-/* @import url(https://db.onlinewebfonts.com/c/535f840c3f8648137acc62e170b62847?family=VTB+Group+Cond+Book); */
-/* @import url(https://db.onlinewebfonts.com/c/535f840c3f8648137acc62e170b62847?family=VTB+Group+Regular+Book); */
-
-/* @font-face {
-  font-family: "VTB Group Cond Book";
-  src: url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.eot");
-  src: url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/535f840c3f8648137acc62e170b62847.svg#VTB Group Cond Book")format("svg");
-} */
-
 
 @font-face {
 	font-family: 'VTBGroupUIWebBook';
@@ -96,7 +78,7 @@
   display: flex;
   position: relative;
   top: 100px;
-  right: 550px;
+  /* right: 550px; */
 }
 
 .border-highlight {
@@ -116,7 +98,7 @@
 .right {
   transform: translateX(100%);
   border-color: #30498f;
-  right: 80px;
+  right: 460px;
   width: 80px;
   z-index: 1;
 }

@@ -6,8 +6,8 @@ export default function Logo() {
     <div className="cursor-pointer">
       <Link href='https://www.vtb.ru/'>
       <svg
-        width="98px"
-        height="35px"
+        width="70px"
+        height="30px"
         viewBox="0 0 98 35"
         xmlns="http://www.w3.org/2000/svg"
         className="canvasstyles__CommonWrapper-header__sc-1e7xibp-0 HgYrR"

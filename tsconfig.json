@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.tsx", "app/components/Content/BtnApp.js", "app/components/Content/BtnAndroid.js", "app/components/Content/TitleInfoAndroid.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.tsx", "app/components/Content/BtnApp.jsx", "app/components/Content/BtnAndroid.js", "app/components/Content/TitleInfoAndroid.js", "app/page.jsx", "app/components/Headers/Header.jsx", "app/components/Headers/NavOne.jsx", "app/components/Headers/NavTwo.jsx", "app/components/Headers/FonColorDarkLight.jsx", "app/components/Headers/ButtonVTB.jsx"],
   "exclude": ["node_modules"]
 }

@@ -1,28 +1,23 @@
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 export default function TitleInfoAndroid() {
   return (
     <>
-      <div>
-        <p className="ml-[-349px] text-[#606981] text-[18px] ">
-          Установка приложения
-        </p>
-        <div className="mt-[-27px] text-[18px] w-[600px] h-[44px]">
-          <p className="ml-[230px] w-[600px]">
-            Установите ВТБ Онлайн через магазин приложений или с сайта ВТБ – по
-            нашей инструкции.
+      <div className="text-center mb-4 lg:ml-[-349px] lg:text-left">
+        <p className="text-[#606981] text-[18px] md:w-[100px] md:ml-[-513px] md:text-[15px] md:mt-[129px]">Установка приложения</p>
+        <div className="mt-[100px] text-[18px] w-[100%] max-w-[600px]">
+          <p className="lg:ml-0 md:text-[15px] md:mt-[-93px] md:ml-[-8px] md:w-[686px] md:h-[16.8px]">
+            Установите ВТБ Онлайн через магазин приложений или с сайта ВТБ – по нашей инструкции.
           </p>
-          <div className="border-b-[1px] mt-[75px] w-[1180px] ml-[-350px] text-lineVtb "></div>
+          <div className="border-b-[1px] mt-[75px] w-[100%] max-w-[1180px] ml-[-350px] text-lineVtb"></div>
         </div>
       </div>
-      <div className="flex mt-[130px]">
-        <p className="absolute left-[-350px] text-[18px] text-[#606981]">Скачать приложение</p>
-        <ul className="ml-[230px] text-[18px]">
-          <li className=" flex text-[#26469f] cursor-pointer mb-[8px] hover:text-btnVtb">
+      <div className="mt-4 lg:flex lg:mt-[130px]">
+        <p className="lg:absolute lg:left-[-350px] text-[18px] text-[#606981]">Скачать приложение</p>
+        <ul className="lg:ml-0 text-[18px]">
+          <li className="flex text-[#26469f] cursor-pointer mb-4 lg:mb-8 hover:text-btnVtb">
             <Link href='https://www.vtb.ru/personal/online-servisy/vtb-online-android/'>
-            Установить по инструкции с сайта
+              Установить по инструкции с сайта
             </Link>
             <svg
               width="28px"
@@ -37,9 +32,9 @@ export default function TitleInfoAndroid() {
               ></path>
             </svg>
           </li>
-          <li className="flex text-[#26469f] cursor-pointer mb-[8px] hover:text-btnVtb">
+          <li className="flex text-[#26469f] cursor-pointer mb-4 lg:mb-8 hover:text-btnVtb">
             <Link href='https://galaxystore.samsung.com/error/4002?cc=UKR'>
-            Galaxy Store
+              Galaxy Store
             </Link>
             <svg
               width="28px"
@@ -54,9 +49,9 @@ export default function TitleInfoAndroid() {
               ></path>
             </svg>
           </li>
-          <li className="flex text-[#26469f] cursor-pointer mb-[8px] hover:text-btnVtb">
+          <li className="flex text-[#26469f] cursor-pointer mb-4 lg:mb-8 hover:text-btnVtb">
             <Link href='https://appgallery.huawei.com/app/C102312137'>
-            AppGallery
+              AppGallery
             </Link>
             <svg
               width="28px"
@@ -71,9 +66,9 @@ export default function TitleInfoAndroid() {
               ></path>
             </svg>
           </li>
-          <li className="flex text-[#26469f] cursor-pointer mb-[8px] hover:text-btnVtb">
+          <li className="flex text-[#26469f] cursor-pointer hover:text-btnVtb">
             <Link href='https://apps.rustore.ru/app/ru.vtb24.mobilebanking.android'>
-            RuStore
+              RuStore
             </Link>
             <svg
               width="28px"
